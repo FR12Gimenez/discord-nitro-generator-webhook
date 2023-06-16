@@ -30,21 +30,9 @@ for x in range(1, int(amount) + 1):
     send() # Makes strings and sends them.
     print("{}".format(crayons.magenta('\n> Generated code: ' + code + '\n- Code Number: %d' % (x))))
     print("{}".format(crayons.green('- Code sent!')))
-    time.sleep(1.65) # Cooldown because of rate limited.
+    time.sleep(1.65) # Cooldown
 
 ### CLOSING
-print("{}".format(crayons.red('\nDisconnecting from server...')))
-time.sleep(0.1)
-print("{}".format(crayons.red('Closing session...')))
-time.sleep(0.2)
-print("{}".format(crayons.red('Cleaning files...')))
-time.sleep(0.3)
-print("{}".format(crayons.red('Stoping Generator...')))
-time.sleep(0.2)
-print("{}".format(crayons.red('Stoping API...')))
-time.sleep(0.4)
-print("{}".format(crayons.red('Clearing history...')))
-time.sleep(0.2)
 
-print('\nAll the codes have been sent! Go check them out!')
-time.sleep(1)
+print('\nAll the codes have been sent.')
+time.sleep(5)
